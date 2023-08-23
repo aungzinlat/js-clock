@@ -11,7 +11,7 @@ const startTime = () => {
   s = checkTime(s);
 //   ms = checkTime(ms)
 
-  display.innerHTML = `<p class="bg-secondary d-inline p-1 rounded text-center">${h}</p> : <p class="bg-secondary d-inline p-1 rounded text-center">${m}</p> : <p class="bg-secondary d-inline p-1 rounded text-center"> ${s}</p>`;
+  display.innerHTML = `<p class=" bg-primary d-inline p-2 rounded-1 text-center">${h}</p>  <p class="bg-primary d-inline p-2 rounded-1 text-center">${m}</p> <p class="bg-danger d-inline p-2 rounded-1 text-center"> ${s}</p>`;
   setTimeout(startTime, 1000);
 };
 
